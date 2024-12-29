@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
+import {Providers} from "./providers";
 import { Geist, Geist_Mono } from "next/font/google";
+import {Link} from "@nextui-org/link";
 import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
-});
+}); 
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -27,7 +29,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <Providers>
+          {children}
+        <Link style={{ position:"fixed", bottom:"10px", left:"10px", backgroundColor:"black", borderRadius:"8px", color:"white", padding:"16px", margin:"8px"}} href="/">
+          HOME
+        </Link>
+        </Providers>
       </body>
     </html>
   );

@@ -1,0 +1,39 @@
+{
+    "KeyHighlights": {
+        "TotalRevenue": 10400000,
+        "TotalMembershipsSold": 1520,
+        "TopLocation": "Downtown\nQuarterly Metrics\nQuarter"
+    },
+    "QuarterlyMetrics": [
+        {
+            "Quarter": "Q1",
+            "Revenue (in $)": 2300000,
+            "Memberships Sold": 320,
+            "Avg Duration (Minutes)": 90
+        },
+        {
+            "Quarter": "Q2",
+            "Revenue (in $)": 2500000,
+            "Memberships Sold": 400,
+            "Avg Duration (Minutes)": 95
+        },
+        {
+            "Quarter": "Q3",
+            "Revenue (in $)": 2700000,
+            "Memberships Sold": 350,
+            "Avg Duration (Minutes)": 100
+        },
+        {
+            "Quarter": "Q4",
+            "Revenue (in $)": 2900000,
+            "Memberships Sold": 450,
+            "Avg Duration (Minutes)": 92
+        }
+    ],
+    "RevenueBreakdownByActivity": {
+        "Gym": 40,
+        "Pool": 25,
+        "Tennis Court": 15,
+        "Personal Training": 20
+    }
+}
