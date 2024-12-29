@@ -16,6 +16,8 @@ Refer to the [notebook](data_ingestion.ipynb) for more detailed information on t
 
 ## Data Ingestion
 
+Original data files were first uploaded into public/datasets, where there were used for data ingestion via functions in the Flask server.
+
 After studying the 4 different data formats, it is observed that they present different data and not the same data in different formats. 
 
 The datasets were analysed to understand the data structure and relevant scripts were written to extract the data. The data was stored in unified JSON formats for retrieval and processing.
