@@ -93,3 +93,8 @@ The preloading process ensures that the data is structured and stored in a consi
 ## Pytest
 
 Implemented a pytest to check if file origins and parsed files exist, can be used to debug in the case visualisations in the app are not rendering as expected.
+
+Simply run the following command to run the tests:
+```bash
+pytest
+```
